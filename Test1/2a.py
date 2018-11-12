@@ -7,4 +7,4 @@ else:
     while c != n:
         a = 2*a+7
         c += 1
-    print(a)    
+    print(a)
