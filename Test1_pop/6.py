@@ -2,10 +2,12 @@ n = int(input())
 am = 0
 c = 2
 
-while c < n:
+while n > 1:
     if n % c == 0:
         am += 1
-    c += 1
+        n = n // c
+    else:
+        c += 1
 
 if am == 2:
     print('tak')
