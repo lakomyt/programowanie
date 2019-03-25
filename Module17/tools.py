@@ -33,3 +33,16 @@ def Display(T):
             D.append(T[i][j])
         print(D)
         D = []
+
+def Create(r,c):
+    # r - rows
+    # c - columns
+    T=[]
+    for x in range(0,r):
+        T.append([])
+        for y in range(0,c):
+            T[x].append(0)
+    T.append('nil')
+    for x in range(0,c):
+        T[x].append('nil')
+    return T

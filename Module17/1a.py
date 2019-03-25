@@ -1,6 +1,8 @@
 from tools import Display
 
 def Rectangle(T,a,b,c,d):
+    # P1(a,b)
+    # P2(c,d)
     if a>c:
         q = a
         a = c
