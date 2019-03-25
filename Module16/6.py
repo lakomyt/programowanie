@@ -1,6 +1,5 @@
-from one import Rows
-from two import Columns
-T = [[2,3,5,2,7,'nil'],[1,8,9,0,1,'nil'],[2,8,4,2,1,'nil'],[2,-13,12,10,21,'nil'],'nil']
+from tools.one import Rows
+from tools.two import Columns
 
 def Min2D(T):
     min = T[0][0]
@@ -11,5 +10,3 @@ def Min2D(T):
             if T[i][j]<min:
                 min = T[i][j]
     return min
-
-print(Min2D(T))

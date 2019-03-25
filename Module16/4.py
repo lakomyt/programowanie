@@ -1,4 +1,4 @@
-from one import Rows
+from tools.one import Rows
 
 def Diagonal(T):
     x = Rows(T)

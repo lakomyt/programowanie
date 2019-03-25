@@ -1,5 +1,5 @@
-from one import Rows
-from two import Columns
+from tools.one import Rows
+from tools.two import Columns
 
 '''
 Dodatkowa funkcja wyświetlająca tablice dwuwymiarowe w wierszach i kolumnach
