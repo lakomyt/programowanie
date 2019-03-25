@@ -1,4 +1,4 @@
-from tools.one import Rows
+from one import Rows
 
 def Columns(T):
     x = Rows(T)
