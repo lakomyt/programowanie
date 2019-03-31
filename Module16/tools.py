@@ -25,11 +25,5 @@ def Columns(T):
     return yy
 
 def Display(T):
-    D = []
-    x = Rows(T)
-    y = Columns(T)
-    for i in range(0,x+1):
-        for j in range(0,y+1):
-            D.append(T[i][j])
-        print(D)
-        D = []
+    for x in T:
+        print(x)
