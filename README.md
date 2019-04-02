@@ -1,4 +1,4 @@
-# Zadania z programowania napisane w pythonie.
+# Zadania z programowania napisane w pythonie/[pseudokodzie](https://github.com/pniedzwiedzinski/pseudo).
 
 -------------------------------------
 

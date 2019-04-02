@@ -1,0 +1,39 @@
+n:=3
+x:=1
+dopóki x<=n wykonuj
+    w:=1
+    dopóki w<=2*n+1 wykonuj
+        jeżeli w<=x to
+            T[x][w]:=1
+        wpp
+            T[x][w]:="·"
+        w:=w+1
+    x:=x+1
+z:=2
+x:=n+1
+dopóki x<=2*n+1 wykonuj
+    o:=1
+    dopóki o<=2*n+1 wykonuj
+        jeżeli o<=x-z to
+            T[x][o]:=1
+        wpp
+            T[x][o]:="·"
+        o:=o+1
+    x:=x+1
+z:=5
+x:=2*n+2
+dopóki x<=4*n wykonuj
+    g:=1
+    dopóki g<=2*n+1 wykonuj
+        jeżeli g<=x-z to
+            T[x][g]:=1
+        wpp
+            T[x][g]:="·"
+        g:=g+1
+    x:=x+1
+i:=1
+dopóki i<=4*n wykonuj
+    pisz T[i]
+    pisz "\n"
+    i:=i+1
+
