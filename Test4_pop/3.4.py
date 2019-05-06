@@ -1,7 +1,7 @@
 from rand import Random
 
 def CircleRandom(k,l):
-	x = Random(2l+1)+k-l-1
+	x = Random(k+l-(k-l)+1)+k-l-1
 	return x
 
 def RandomWalk(T,n,k):
