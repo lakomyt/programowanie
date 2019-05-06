@@ -15,9 +15,9 @@ def RandomWalk(T,n,k):
 
 def AddOnes(T,n,k):
 	for x in range(0,k):
-		r = Random(n)
-		for y in range(r,n+1):
-			w = T[r+1]
-			T[r+1] = T[r]
+		r = Random(n+1)-1
+		for y in range(0,n-r+1):
+			w = n-y
+			T[w+1]=T[w]
 		T[r] = 1
 	return T
