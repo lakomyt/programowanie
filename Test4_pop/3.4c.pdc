@@ -1,0 +1,15 @@
+T[1]:=2
+T[2]:=3
+T[3]:=4
+T[4]:=5
+k:=1
+n:=4
+dla i:=1,...,k wykonuj
+  r:=2
+  dla y:=0,...,n-r+1 wykonuj
+    w:=n-y
+    T[w+1]:=T[w]
+  T[r]:=1
+dla h:=1,...,5 wykonuj
+  pisz T[h]
+  pisz " "
