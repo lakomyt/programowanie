@@ -8,8 +8,8 @@ x=0 #*
 for i in range(0,n):
 	c = 0
 	for j in range(0,n):
-	if T[i] == T[j]:
-		c+=1
-		x+=1
+		if T[i] == T[j]:
+			c+=1
+			x+=1
 	if c % 2 == 0:
 		print(T[i])
