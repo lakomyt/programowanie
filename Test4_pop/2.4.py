@@ -11,13 +11,11 @@ def Floor(x):
 	return x
 
 def Digit(x,k):
-	if k<0:
-		while k!=0:
-			x=x*10
-			k+=1
-	elif k>0:
-		while k!=1:
-			x=x/10
-			k-=1
+	while k<0:
+		x=x*10
+		k+=1
+	while k>0:
+		x=x/10
+		k-=1
 	x = Floor(x)%10
 	return x
