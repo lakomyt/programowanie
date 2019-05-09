@@ -12,7 +12,9 @@ def Ceil(x):
 
 def RoundP(x,k):
     q = k
-    if k<0:
+	if k==0:
+		return Round(x)
+    elif k<0:
         while k!=0:
             x=x*10
             k+=1
